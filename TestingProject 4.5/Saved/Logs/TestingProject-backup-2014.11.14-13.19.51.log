@@ -1,0 +1,785 @@
+﻿Log file open, 11/13/14 16:55:35
+LogInit:Display: Running engine for game: TestingProject
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.13-16.55.35:267][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.13-16.55.35:294][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.13-16.55.35:308][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.13-16.55.35:317][  0]LogInit: Object subsystem initialized
+[2014.11.13-16.55.35:320][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.13-16.55.35:320][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.13-16.55.35:320][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)'
+[2014.11.13-16.55.35:320][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.13-16.55.35:320][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.13-16.55.35:320][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.13-16.55.35:325][  0]LogInit: Computer: KEVIN-PC
+[2014.11.13-16.55.35:325][  0]LogInit: User: Kevin
+[2014.11.13-16.55.35:326][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.13-16.55.35:326][  0]LogInit: High frequency timer resolution =3.125058 MHz
+[2014.11.13-16.55.35:326][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.11.13-16.55.35:326][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.13-16.55.35:326][  0]LogMemory: Process Physical Memory: 62.91 MB used, 62.91 MB peak
+[2014.11.13-16.55.35:326][  0]LogMemory: Process Virtual Memory: 37.90 MB used, 37.90 MB peak
+[2014.11.13-16.55.35:326][  0]LogMemory: Physical Memory: 4073.48 MB used, 8142.11 MB total
+[2014.11.13-16.55.35:326][  0]LogMemory: Virtual Memory: 273.50 MB used, 8388608.00 MB total
+[2014.11.13-16.55.35:350][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2014.11.13-16.55.35:350][  0]LogD3D11RHI: Adapter has 2030MB of dedicated video memory, 0MB of dedicated system memory, and 3815MB of shared system memory, 1 output[s]
+[2014.11.13-16.55.35:350][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.13-16.55.35:354][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.13-16.55.35:359][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.11.13-16.55.35:400][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.13-16.55.35:524][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.13-16.55.39:896][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.13-16.55.40:442][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.13-16.55.40:540][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.13-16.55.40:682][  0]LogDerivedDataCache: Loaded boot cache 0.14s 39MB C:/Users/Kevin/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.13-16.55.40:682][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kevin/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.13-16.55.40:682][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.13-16.55.40:682][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.13-16.55.40:817][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.13-16.55.40:830][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.13-16.55.45:980][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.13-16.55.45:980][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.13-16.55.47:372][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.13-16.55.47:435][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.13-16.55.48:573][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.13-16.55.55:661][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.13-16.55.56:206][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Binaries/Win64. Error: 0
+[2014.11.13-16.55.56:861][  0]SourceControl: Info Source control is disabled
+[2014.11.13-16.55.56:861][  0]SourceControl: Info Source control is disabled
+[2014.11.13-16.55.56:866][  0]SourceControl: Info Source control is disabled
+[2014.11.13-16.55.57:251][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.13-16.55.57:251][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.13-16.55.57:623][  0]LogEngine: Initializing Engine...
+[2014.11.13-16.55.58:064][  0]LogInit: XAudio2 using '1 - LG TV (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.13-16.55.58:075][  0]LogInit: FAudioDevice initialized.
+[2014.11.13-16.55.58:294][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.13-16.55.58:365][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Kevin/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.13-16.55.58:369][  0]LogInit: Texture streaming: Enabled
+[2014.11.13-16.55.58:445][  0]LogInit: Transaction tracking system initialized
+[2014.11.13-16.55.58:727][  0]BlueprintLog: New page: Editor Load
+[2014.11.13-16.55.58:864][  0]LogAssetRegistry: FAssetRegistry took 0.0121 seconds to start up
+[2014.11.13-16.55.58:865][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.13-16.56.00:328][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.13-16.56.00:668][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.13-16.56.01:425][  0]LogConsoleResponse:Display: 
+[2014.11.13-16.56.02:811][  0]SourceControl: Info Source control is disabled
+[2014.11.13-16.56.02:821][  0]Cmd: MAP LOAD FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.13-16.56.02:826][  0]LightingResults: New page: Lighting Build
+[2014.11.13-16.56.02:915][  0]MapCheck: New page: Map Check
+[2014.11.13-16.56.02:915][  0]LightingResults: New page: Lighting Build
+[2014.11.13-16.56.03:014][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016256B60
+[2014.11.13-16.56.04:207][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.13-16.56.04:220][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.13-16.56.04:222][  0]Cmd: MAP CHECKDEP
+[2014.11.13-16.56.04:222][  0]MapCheck: New page: Example_Map - 13 Nov 2014 16:56:04
+[2014.11.13-16.56.04:282][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.019ms to complete.
+[2014.11.13-16.56.04:282][  0]LogFileHelpers: Loading map 'Example_Map' took 1.460
+[2014.11.13-16.56.05:318][  0]LogCollectionManager: Loaded 0 collections in 0.001749 seconds
+[2014.11.13-16.56.06:393][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.13-16.56.06:564][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.13-16.56.06:617][  0]LogLoad: Full Startup: 34.98 seconds (BP compile: 0.26 seconds)
+[2014.11.13-16.56.06:985][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.13-16.56.07:629][  0]LogRenderer:Warning: Reallocating scene render targets to support 1152x880.
+[2014.11.13-16.56.08:595][  3]LogAssetRegistry: Asset discovery search completed in 9.7422 seconds
+[2014.11.13-16.56.28:037][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.13-16.56.28:067][409]Cmd: MAP LOAD FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Maps/DoorTest.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.13-16.56.28:067][409]LightingResults: New page: Lighting Build
+[2014.11.13-16.56.28:093][409]LoadErrors: New page: Loading map: DoorTest.umap
+[2014.11.13-16.56.28:093][409]MapCheck: New page: Map Check
+[2014.11.13-16.56.28:093][409]LightingResults: New page: Lighting Build
+[2014.11.13-16.56.28:116][409]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EAC7420
+[2014.11.13-16.56.29:189][409]BlueprintLog:Warning: Warning Blueprint MyProjectile has been migrated and requires re-saving to avoid import errors
+[2014.11.13-16.56.33:800][409]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.13-16.56.33:800][409]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-16.56.33:815][409]Cmd: MAP CHECKDEP
+[2014.11.13-16.56.33:815][409]MapCheck: New page: DoorTest - 13 Nov 2014 16:56:33
+[2014.11.13-16.56.33:897][409]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.043ms to complete.
+[2014.11.13-16.56.33:897][409]LogFileHelpers: Loading map 'DoorTest' took 5.832
+[2014.11.13-16.56.33:948][410]Cmd: UpdateLandscapeEditorData -warnings
+[2014.11.13-16.56.33:967][410]Cmd: UpdateLandscapeEditorData
+[2014.11.13-16.57.19:117][169]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.13-16.57.19:118][169]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.13-16.57.19:245][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.13-16.57.19:245][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.11.13-16.57.19:245][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.13-16.57.19:245][169]LogPlayLevel: [PIE] Compiling Key1 before PIE...
+[2014.11.13-16.57.19:402][169]LogPlayLevel: PIE:  Blueprint regeneration took 285 ms (2 blueprints)
+[2014.11.13-16.57.19:403][169]PIE: New page: PIE session: DoorTest (13 Nov 2014 16:57:19)
+[2014.11.13-16.57.19:536][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132963s)
+[2014.11.13-16.57.19:536][169]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2014.11.13-16.57.19:536][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.133670s)
+[2014.11.13-16.57.19:685][169]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.11.13-16.57.19:687][169]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.11.13-16.57.19:688][169]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-16.57.19:737][169]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-16.57.19:793][169]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-16.57.19
+[2014.11.13-16.57.19:815][169]LogWorld: Bringing up level for play took: 0.077608
+[2014.11.13-16.57.19:847][169]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 1.452
+[2014.11.13-16.57.22:130][330]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 89
+[2014.11.13-16.57.22:130][330]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Key1.Key1_C:BndEvt__StaticMesh1_K2Node_ComponentBoundEvent_31_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/Blueprints/Key1.Key1_C:ExecuteUbergraph_Key1
+
+[2014.11.13-16.57.35:378][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DD53880
+[2014.11.13-16.57.38:997][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.38:997][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:037][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:038][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:038][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:038][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:038][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.39:038][703]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-16.57.44:603][325]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-16.57.44:603][325]PIE: New page: PIE session: DoorTest (13 Nov 2014 16:57:44)
+[2014.11.13-16.57.44:739][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136094s)
+[2014.11.13-16.57.44:740][325]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2014.11.13-16.57.44:740][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.136949s)
+[2014.11.13-16.57.44:768][325]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-16.57.44:770][325]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-16.57.44:824][325]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-16.57.44
+[2014.11.13-16.57.44:828][325]LogWorld: Bringing up level for play took: 0.057946
+[2014.11.13-16.57.44:829][325]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.434
+[2014.11.13-16.57.51:166][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000161E9080
+[2014.11.13-17.00.47:499][244]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.00.47:499][244]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.00.47:499][244]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.00.47:499][244]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.00.47:499][244]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.00.47:499][244]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.00.47:499][244]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.00.58:319][444]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.00.58:319][444]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.01.17:095][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Door.uasset" SILENT=true
+[2014.11.13-17.01.17:482][559]LogSavePackage: Save=359.447083ms
+[2014.11.13-17.01.17:482][559]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Door6C9A70FA4AFCE6E2E1D066BBD5165C7B.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Door.uasset'
+[2014.11.13-17.01.19:668][819]BlueprintLog: New page: Compile Door
+[2014.11.13-17.01.19:683][819]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2014.11.13-17.01.19:683][819]LogBlueprint:Error: [compiler] Error Variable node  Get Key1  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2014.11.13-17.01.19:684][819]LogBlueprint:Warning: [compiler] Warning [0348.05] Compile of Door failed. 2 Fatal Issue(s) 0 Warning(s) [in 4 ms]
+[2014.11.13-17.01.19:835][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.13-17.01.19:835][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.13-17.01.19:909][819]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2014.11.13-17.01.19:909][819]BlueprintEditorCompileResults:Error: Error Variable node  Get Key1  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2014.11.13-17.01.19:909][819]BlueprintEditorCompileResults:Warning: Warning [0348.05] Compile of Door failed. 2 Fatal Issue(s) 0 Warning(s) [in 4 ms]
+[2014.11.13-17.02.27:209][948]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.13-17.02.27:209][948]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.13-17.02.27:209][948]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.11.13-17.02.29:247][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.13-17.02.29:560][105]LogSavePackage: Save=301.663208ms
+[2014.11.13-17.02.29:560][105]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/MyCharacter2D9D3FA94F62E8855786EFAD0F349CD0.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/MyCharacter.uasset'
+[2014.11.13-17.02.30:707][197]BlueprintLog: New page: Compile MyCharacter
+[2014.11.13-17.02.30:820][197]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.13-17.02.30:956][197]BlueprintEditorCompileResults: Info [0419.13] Compile of MyCharacter successful! [in 47 ms]
+[2014.11.13-17.03.14:715][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key1" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Key1.uasset" SILENT=true
+[2014.11.13-17.03.14:973][198]LogSavePackage: Save=246.261673ms
+[2014.11.13-17.03.14:973][198]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Key16F735DBD4D1ED0F4A54680AA20BCD241.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Key1.uasset'
+[2014.11.13-17.03.17:709][472]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.13-17.03.17:716][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.13-17.03.17:716][472]LogPlayLevel: [PIE] Compiling Door before PIE...
+[2014.11.13-17.03.17:814][472]LogPlayLevel: [PIE] Compiling Key1 before PIE...
+[2014.11.13-17.03.17:944][472]LogPlayLevel: PIE:  Blueprint regeneration took 235 ms (2 blueprints)
+[2014.11.13-17.03.17:944][472]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:03:17)
+[2014.11.13-17.03.18:076][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131794s)
+[2014.11.13-17.03.18:077][472]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2014.11.13-17.03.18:077][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.132475s)
+[2014.11.13-17.03.18:106][472]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.03.18:108][472]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.03.18:145][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.03.18
+[2014.11.13-17.03.18:148][472]LogWorld: Bringing up level for play took: 0.040202
+[2014.11.13-17.03.18:150][472]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest -0.249
+[2014.11.13-17.03.20:275][629]LogScript:Warning: Accessed None 'Character'
+	Key1_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Key1_C_0
+	Function /Game/Blueprints/Key1.Key1_C:ExecuteUbergraph_Key1:008D
+[2014.11.13-17.03.20:275][629]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Key1
+[2014.11.13-17.03.20:496][629]LogBlueprintUserMessages: false
+[2014.11.13-17.03.23:139][858]LogScript:Warning: Accessed None 'Character'
+	Key1_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Key1_C_0
+	Function /Game/Blueprints/Key1.Key1_C:ExecuteUbergraph_Key1:008D
+[2014.11.13-17.03.23:139][858]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Key1
+[2014.11.13-17.03.23:139][858]LogBlueprintUserMessages: false
+[2014.11.13-17.03.24:532][968]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000176334C0
+[2014.11.13-17.03.34:608][  0]BlueprintLog: New page: Compile Key1
+[2014.11.13-17.03.34:734][  0]BlueprintEditorCompileResults: Info [0482.98] Compile of Key1 successful! [in 2 ms]
+[2014.11.13-17.03.36:545][165]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.03.36:545][165]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:03:36)
+[2014.11.13-17.03.36:678][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133182s)
+[2014.11.13-17.03.36:679][165]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2014.11.13-17.03.36:679][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.134036s)
+[2014.11.13-17.03.36:708][165]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.03.36:710][165]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.03.36:748][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.03.36
+[2014.11.13-17.03.36:751][165]LogWorld: Bringing up level for play took: 0.040650
+[2014.11.13-17.03.36:753][165]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.353
+[2014.11.13-17.03.39:015][335]LogScript:Warning: Accessed None 'Character'
+	Key1_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Key1_C_1
+	Function /Game/Blueprints/Key1.Key1_C:ExecuteUbergraph_Key1:008D
+[2014.11.13-17.03.39:016][335]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Key1
+[2014.11.13-17.03.39:016][335]LogBlueprintUserMessages: false
+[2014.11.13-17.03.41:106][513]LogScript:Warning: Accessed None 'Character'
+	Key1_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Key1_C_1
+	Function /Game/Blueprints/Key1.Key1_C:ExecuteUbergraph_Key1:008D
+[2014.11.13-17.03.41:106][513]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Key1
+[2014.11.13-17.03.41:106][513]LogBlueprintUserMessages: false
+[2014.11.13-17.03.42:428][615]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C7D13A0
+[2014.11.13-17.04.16:134][483]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.04.16:135][483]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.04.16:135][483]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.04.31:262][121]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.13-17.04.31:269][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.13-17.04.31:269][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.11.13-17.04.31:269][121]LogPlayLevel: [PIE] Compiling Door before PIE...
+[2014.11.13-17.04.31:382][121]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (1 blueprints)
+[2014.11.13-17.04.31:382][121]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:04:31)
+[2014.11.13-17.04.31:515][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133402s)
+[2014.11.13-17.04.31:516][121]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2014.11.13-17.04.31:516][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.134163s)
+[2014.11.13-17.04.31:554][121]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.04.31:556][121]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.04.31:594][121]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.04.31
+[2014.11.13-17.04.31:597][121]LogWorld: Bringing up level for play took: 0.041089
+[2014.11.13-17.04.31:600][121]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 1.199
+[2014.11.13-17.04.31:867][121]LogRenderer:Warning: Reallocating scene render targets to support 1296x880.
+[2014.11.13-17.04.33:622][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B58B880
+[2014.11.13-17.04.35:668][462]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.04.35:668][462]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:04:35)
+[2014.11.13-17.04.35:804][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135379s)
+[2014.11.13-17.04.35:805][462]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2014.11.13-17.04.35:805][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.136315s)
+[2014.11.13-17.04.35:844][462]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.04.35:847][462]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.04.35:904][462]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.04.35
+[2014.11.13-17.04.35:907][462]LogWorld: Bringing up level for play took: 0.059870
+[2014.11.13-17.04.35:909][462]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest -0.491
+[2014.11.13-17.04.40:217][796]LogBlueprintUserMessages: false
+[2014.11.13-17.04.43:579][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034F9BE20
+[2014.11.13-17.04.58:677][648]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.13-17.04.58:677][648]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.13-17.04.58:677][648]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.13-17.04.58:677][648]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_13549.EdGraphPin_6597"''
+[2014.11.13-17.04.58:677][648]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_366.EdGraphPin_6601"''
+[2014.11.13-17.05.04:011][239]BlueprintLog: New page: Compile Door
+[2014.11.13-17.05.04:084][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.13-17.05.04:084][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.11.13-17.05.04:134][239]BlueprintEditorCompileResults: Info [0572.39] Compile of Door successful! [in 5 ms]
+[2014.11.13-17.05.05:752][369]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.05.05:752][369]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:05:05)
+[2014.11.13-17.05.05:888][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135566s)
+[2014.11.13-17.05.05:888][369]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2014.11.13-17.05.05:888][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.136372s)
+[2014.11.13-17.05.05:915][369]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.05.05:917][369]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.05.05:955][369]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.05.05
+[2014.11.13-17.05.05:958][369]LogWorld: Bringing up level for play took: 0.041211
+[2014.11.13-17.05.05:960][369]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest -0.441
+[2014.11.13-17.05.11:645][812]LogBlueprintUserMessages: false
+[2014.11.13-17.05.12:827][899]LogBlueprintUserMessages: false
+[2014.11.13-17.05.13:710][968]LogBlueprintUserMessages: false
+[2014.11.13-17.05.14:511][ 30]LogBlueprintUserMessages: false
+[2014.11.13-17.05.15:238][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034E4B060
+[2014.11.13-17.05.23:364][921]LogEditorTransaction: Undo Create Pin Link
+[2014.11.13-17.05.24:082][951]LogEditorTransaction: Undo Paste clipboard contents
+[2014.11.13-17.05.24:831][ 20]LogEditorTransaction: Undo Move Nodes
+[2014.11.13-17.05.25:241][ 53]LogEditorTransaction: Undo Create Pin Link
+[2014.11.13-17.05.25:724][ 95]LogEditorTransaction: Undo Add Node
+[2014.11.13-17.05.27:624][307]LogEditorTransaction: Undo Move Node
+[2014.11.13-17.05.28:632][412]LogEditorTransaction: Undo Add Node
+[2014.11.13-17.05.30:747][650]LogEditorTransaction: Undo Create Pin Link
+[2014.11.13-17.05.31:303][701]LogEditorTransaction: Undo Create Pin Link
+[2014.11.13-17.05.53:567][142]BlueprintLog: New page: Compile Door
+[2014.11.13-17.05.53:716][142]BlueprintEditorCompileResults: Info [0621.94] Compile of Door successful! [in 4 ms]
+[2014.11.13-17.06.01:813][ 19]BlueprintLog: New page: Compile Key1
+[2014.11.13-17.06.01:872][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.13-17.06.01:915][ 19]BlueprintEditorCompileResults: Info [0630.18] Compile of Key1 successful! [in 1 ms]
+[2014.11.13-17.06.03:709][157]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.13-17.06.03:772][157]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.11.13-17.06.03:999][157]LogPlayLevel: [PIE] Compiling Door before PIE...
+[2014.11.13-17.06.04:096][157]LogPlayLevel: [PIE] Compiling Key1 before PIE...
+[2014.11.13-17.06.04:202][157]LogPlayLevel: PIE:  Blueprint regeneration took 492 ms (3 blueprints)
+[2014.11.13-17.06.04:202][157]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:06:04)
+[2014.11.13-17.06.04:340][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138036s)
+[2014.11.13-17.06.04:341][157]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2014.11.13-17.06.04:341][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.138935s)
+[2014.11.13-17.06.04:369][157]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.06.04:371][157]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.06.04:408][157]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.06.04
+[2014.11.13-17.06.04:412][157]LogWorld: Bringing up level for play took: 0.040848
+[2014.11.13-17.06.04:413][157]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.012
+[2014.11.13-17.06.08:951][507]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.08:952][507]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.08:952][507]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.15:342][ 36]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.15:343][ 36]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.15:343][ 36]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.16:426][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.13-17.06.16:481][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017E83600
+[2014.11.13-17.06.36:666][386]BlueprintLog: New page: Compile Key1
+[2014.11.13-17.06.36:770][386]BlueprintEditorCompileResults: Info [0665.03] Compile of Key1 successful! [in 2 ms]
+[2014.11.13-17.06.38:461][514]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.06.38:461][514]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:06:38)
+[2014.11.13-17.06.38:599][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137421s)
+[2014.11.13-17.06.38:599][514]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2014.11.13-17.06.38:599][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.138203s)
+[2014.11.13-17.06.38:625][514]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.06.38:627][514]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.06.38:665][514]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.06.38
+[2014.11.13-17.06.38:668][514]LogWorld: Bringing up level for play took: 0.041169
+[2014.11.13-17.06.38:670][514]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.268
+[2014.11.13-17.06.40:750][670]LogBlueprintUserMessages: You got the key!
+[2014.11.13-17.06.45:721][ 65]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.45:721][ 65]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.45:721][ 65]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.46:666][138]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.46:666][138]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.46:666][138]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.46:964][161]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.46:964][161]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.46:964][161]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.47:106][172]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.47:106][172]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.47:106][172]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.47:249][183]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.47:249][183]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.47:249][183]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.47:392][194]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.47:392][194]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.47:392][194]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.47:521][204]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.47:522][204]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.47:522][204]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.47:638][213]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.47:639][213]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.47:639][213]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.47:781][224]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.47:782][224]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.47:782][224]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.48:171][254]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.48:171][254]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.48:171][254]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.48:328][266]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.48:328][266]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.48:328][266]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.48:470][277]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.48:470][277]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.48:470][277]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.48:613][288]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.48:613][288]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.48:613][288]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.48:729][297]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.48:729][297]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.48:729][297]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.48:833][305]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.06.48:833][305]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.06.48:833][305]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.06.53:101][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004DF25E40
+[2014.11.13-17.07.26:762][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.13-17.07.27:071][582]LogSavePackage: Save=298.697815ms
+[2014.11.13-17.07.27:071][582]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/MyCharacter824FB7874A873E3833326FB041C2C7F1.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/MyCharacter.uasset'
+[2014.11.13-17.07.30:706][763]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.07.30:706][763]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:07:30)
+[2014.11.13-17.07.30:842][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135977s)
+[2014.11.13-17.07.30:843][763]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2014.11.13-17.07.30:843][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.136849s)
+[2014.11.13-17.07.30:871][763]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.07.30:873][763]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.07.30:912][763]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.07.30
+[2014.11.13-17.07.30:915][763]LogWorld: Bringing up level for play took: 0.041803
+[2014.11.13-17.07.30:917][763]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.514
+[2014.11.13-17.07.34:658][963]LogBlueprintUserMessages: You got the key!
+[2014.11.13-17.07.38:480][185]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.07.38:480][185]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.07.38:480][185]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.07.41:704][379]LogScript:Warning: Accessed None 'Character'
+	Door_C /Game/Maps/UEDPIE_0_DoorTest.DoorTest:PersistentLevel.Door_C_0
+	Function /Game/Blueprints/Door.Door_C:ExecuteUbergraph_Door:0020
+[2014.11.13-17.07.41:705][379]PIE:Error: Error Accessed None 'Character' from node Construction Script in blueprint Door
+[2014.11.13-17.07.41:705][379]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.07.44:178][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.13-17.07.44:178][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.11.13-17.07.44:225][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004DF27D80
+[2014.11.13-17.07.57:654][436]LogSavePackage: Save=2912.472900ms
+[2014.11.13-17.07.57:654][436]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/DoorTest_Auto1019C992141D25B2C381373B6848D4AEF.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Maps/DoorTest_Auto1.umap'
+[2014.11.13-17.07.57:663][436]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DoorTest' took 3.093
+[2014.11.13-17.07.57:663][436]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.093
+[2014.11.13-17.07.57:670][436]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Door] ([1] browsable assets)...
+[2014.11.13-17.07.57:694][436]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Door.Door]
+[2014.11.13-17.07.57:694][436]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Door]
+[2014.11.13-17.07.57:697][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Blueprints/Door_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.13-17.07.58:056][436]LogSavePackage: Save=342.836212ms
+[2014.11.13-17.07.58:056][436]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Door_Auto1DB0F6FFA4BF85F92453FABADECD25FC1.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Blueprints/Door_Auto1.uasset'
+[2014.11.13-17.07.58:068][436]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Key1] ([1] browsable assets)...
+[2014.11.13-17.07.58:094][436]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Key1.Key1]
+[2014.11.13-17.07.58:094][436]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Key1]
+[2014.11.13-17.07.58:097][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key1" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Blueprints/Key1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.13-17.07.58:368][436]LogSavePackage: Save=255.117828ms
+[2014.11.13-17.07.58:368][436]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Key1_Auto101FF730246D5F2C32A216D99D5855410.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Blueprints/Key1_Auto1.uasset'
+[2014.11.13-17.07.58:373][436]LogFileHelpers: Auto-saving content packages took 0.711
+[2014.11.13-17.08.54:449][881]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.08.54:449][881]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.08.54:449][881]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.08.54:449][881]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.13-17.09.14:420][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.13-17.09.14:742][696]LogSavePackage: Save=305.850006ms
+[2014.11.13-17.09.14:742][696]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/MyCharacter969CBC3541A64E91627955BA0B7F0977.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/MyCharacter.uasset'
+[2014.11.13-17.09.15:415][748]BlueprintLog: New page: Compile MyCharacter
+[2014.11.13-17.09.15:531][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.13-17.09.15:669][748]BlueprintEditorCompileResults: Info [0823.84] Compile of MyCharacter successful! [in 51 ms]
+[2014.11.13-17.09.17:899][959]BlueprintLog: New page: Compile Key1
+[2014.11.13-17.09.18:003][959]BlueprintEditorCompileResults: Info [0826.26] Compile of Key1 successful! [in 2 ms]
+[2014.11.13-17.09.21:313][346]BlueprintLog: New page: Compile Door
+[2014.11.13-17.09.21:448][346]BlueprintEditorCompileResults: Info [0829.68] Compile of Door successful! [in 4 ms]
+[2014.11.13-17.09.22:885][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Door.uasset" SILENT=true
+[2014.11.13-17.09.23:222][504]LogSavePackage: Save=327.903046ms
+[2014.11.13-17.09.23:222][504]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Door9B8B97984B545CCE817EC0A3CBA68E78.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Door.uasset'
+[2014.11.13-17.10.16:866][857]BlueprintLog: New page: Compile Door
+[2014.11.13-17.10.16:881][857]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2014.11.13-17.10.16:881][857]LogBlueprint:Error: [compiler] Error Variable node  Get Key1  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2014.11.13-17.10.16:882][857]LogBlueprint:Warning: [compiler] Warning [0885.24] Compile of Door failed. 2 Fatal Issue(s) 0 Warning(s) [in 5 ms]
+[2014.11.13-17.10.17:072][857]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_C, therefore ' Target ' must have a connection
+[2014.11.13-17.10.17:072][857]BlueprintEditorCompileResults:Error: Error Variable node  Get Key1  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2014.11.13-17.10.17:072][857]BlueprintEditorCompileResults:Warning: Warning [0885.24] Compile of Door failed. 2 Fatal Issue(s) 0 Warning(s) [in 5 ms]
+[2014.11.13-17.12.53:981][975]BlueprintLog: New page: Compile Door
+[2014.11.13-17.12.54:122][975]BlueprintEditorCompileResults: Info [1042.35] Compile of Door successful! [in 5 ms]
+[2014.11.13-17.12.56:757][184]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.12.56:757][184]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:12:56)
+[2014.11.13-17.12.56:895][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136277s)
+[2014.11.13-17.12.56:895][184]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2014.11.13-17.12.56:895][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.137051s)
+[2014.11.13-17.12.56:924][184]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.12.56:926][184]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.12.56:964][184]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.12.56
+[2014.11.13-17.12.56:967][184]LogWorld: Bringing up level for play took: 0.041494
+[2014.11.13-17.12.56:969][184]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.562
+[2014.11.13-17.12.58:856][321]LogBlueprintUserMessages: You got the key!
+[2014.11.13-17.13.55:127][446]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.13-17.13.55:174][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004D638860
+[2014.11.13-17.13.56:358][536]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.13.56:359][536]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:13:56)
+[2014.11.13-17.13.56:494][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135587s)
+[2014.11.13-17.13.56:495][536]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2014.11.13-17.13.56:495][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.136388s)
+[2014.11.13-17.13.56:526][536]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.13.56:527][536]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.13.56:565][536]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.13.56
+[2014.11.13-17.13.56:569][536]LogWorld: Bringing up level for play took: 0.041025
+[2014.11.13-17.13.56:570][536]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.163
+[2014.11.13-17.14.00:846][865]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.14.01:812][938]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.14.04:557][168]LogBlueprintUserMessages: You got the key!
+[2014.11.13-17.14.09:191][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F2342C0
+[2014.11.13-17.14.11:631][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Door.uasset" SILENT=true
+[2014.11.13-17.14.11:983][718]LogSavePackage: Save=334.915375ms
+[2014.11.13-17.14.11:983][718]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Door5FCDB38147329B71B7AB44AC589E5485.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Door.uasset'
+[2014.11.13-17.14.13:098][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key1" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Key1.uasset" SILENT=true
+[2014.11.13-17.14.13:359][844]LogSavePackage: Save=249.765930ms
+[2014.11.13-17.14.13:359][844]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Key13D01007040314EC0EBF9E38D2F77304A.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Key1.uasset'
+[2014.11.13-17.14.14:765][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.13-17.14.15:078][965]LogSavePackage: Save=300.992188ms
+[2014.11.13-17.14.15:078][965]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/MyCharacterA09170054C2C0942FD84AB910E897C06.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/MyCharacter.uasset'
+[2014.11.13-17.14.16:578][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DoorTest" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Maps/DoorTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.13-17.14.16:582][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.13-17.14.19:350][ 69]LogSavePackage: Save=2710.273193ms
+[2014.11.13-17.14.19:350][ 69]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/DoorTest6670604641562C257442DF8B3B1CFBF3.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Maps/DoorTest.umap'
+[2014.11.13-17.24.17:395][547]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/DoorTest' took 0.046
+[2014.11.13-17.24.17:403][547]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Door] ([1] browsable assets)...
+[2014.11.13-17.24.17:411][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Door]
+[2014.11.13-17.24.17:414][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Blueprints/Door_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2014.11.13-17.24.17:462][547]LogSavePackage: Save=25.951838ms
+[2014.11.13-17.24.17:462][547]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Door_Auto2B2FAAF284690F312E5DA55A0C753A27F.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Blueprints/Door_Auto2.uasset'
+[2014.11.13-17.24.17:474][547]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Key1] ([1] browsable assets)...
+[2014.11.13-17.24.17:492][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Key1]
+[2014.11.13-17.24.17:494][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key1" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Blueprints/Key1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2014.11.13-17.24.17:528][547]LogSavePackage: Save=17.574715ms
+[2014.11.13-17.24.17:528][547]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Key1_Auto2BBE12B40400E7C364DAC9E81D678619A.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Autosaves/Game/Blueprints/Key1_Auto2.uasset'
+[2014.11.13-17.24.17:533][547]LogFileHelpers: Auto-saving content packages took 0.138
+[2014.11.13-17.24.29:976][268]BlueprintLog: New page: Compile Key1
+[2014.11.13-17.24.30:080][268]BlueprintEditorCompileResults: Info [1738.33] Compile of Key1 successful! [in 2 ms]
+[2014.11.13-17.24.32:379][441]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.24.32:380][441]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:24:32)
+[2014.11.13-17.24.32:515][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135163s)
+[2014.11.13-17.24.32:515][441]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2014.11.13-17.24.32:516][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.135936s)
+[2014.11.13-17.24.32:544][441]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.24.32:546][441]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.24.32:584][441]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.24.32
+[2014.11.13-17.24.32:587][441]LogWorld: Bringing up level for play took: 0.041691
+[2014.11.13-17.24.32:589][441]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.175
+[2014.11.13-17.24.37:105][792]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.24.39:774][ 20]LogBlueprintUserMessages: You got the key!
+[2014.11.13-17.24.45:421][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036FB58A0
+[2014.11.13-17.26.13:569][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.11.13-17.26.13:570][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.11.13-17.26.13:606][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C678C20
+[2014.11.13-17.26.13:719][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DoorTest" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Maps/DoorTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.13-17.26.16:265][ 65]LogSavePackage: Save=2483.264893ms
+[2014.11.13-17.26.16:265][ 65]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/DoorTest6BB7662E444964845B803188CB657213.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Maps/DoorTest.umap'
+[2014.11.13-17.26.16:288][ 65]LogFileHelpers: Saving map 'DoorTest' took 2.655
+[2014.11.13-17.26.16:290][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Door" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Door.uasset" SILENT=true
+[2014.11.13-17.26.16:320][ 65]LogSavePackage: Save=20.923132ms
+[2014.11.13-17.26.16:320][ 65]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Door66CD2F214E1279CE638427B2FF907B1A.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Door.uasset'
+[2014.11.13-17.26.16:340][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key1" FILE="C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Key1.uasset" SILENT=true
+[2014.11.13-17.26.16:568][ 65]LogSavePackage: Save=218.427307ms
+[2014.11.13-17.26.16:568][ 65]LogSavePackage: Moving 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Saved/Key1BEC7A072435D8B9361E3AABB7D81808B.tmp' to 'C:/Users/Kevin/Documents/Unreal Projects/TestingProject 4.5/Content/Blueprints/Key1.uasset'
+[2014.11.13-17.33.22:479][448]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-17.33.22:479][448]PIE: New page: PIE session: DoorTest (13 Nov 2014 17:33:22)
+[2014.11.13-17.33.22:627][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148346s)
+[2014.11.13-17.33.22:628][448]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2014.11.13-17.33.22:628][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.149176s)
+[2014.11.13-17.33.22:655][448]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-17.33.22:656][448]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-17.33.22:697][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-17.33.22
+[2014.11.13-17.33.22:701][448]LogWorld: Bringing up level for play took: 0.044488
+[2014.11.13-17.33.22:703][448]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.282
+[2014.11.13-17.33.27:941][677]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.33.28:758][711]LogBlueprintUserMessages: You need the key!
+[2014.11.13-17.33.31:991][854]LogBlueprintUserMessages: You got the key!
+[2014.11.13-17.33.44:576][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.11.13-17.33.44:576][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.11.13-17.33.44:628][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000657EECA0
+[2014.11.13-21.32.34:962][669]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.11.13-21.32.38:578][943]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.13-21.32.38:578][943]PIE: New page: PIE session: DoorTest (13 Nov 2014 21:32:38)
+[2014.11.13-21.32.38:716][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138016s)
+[2014.11.13-21.32.38:716][943]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2014.11.13-21.32.38:717][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DoorTest.DoorTest to /Game/Maps/UEDPIE_0_DoorTest.DoorTest (0.138763s)
+[2014.11.13-21.32.38:746][943]LogWorld: Game class is 'MyGame_C'
+[2014.11.13-21.32.38:748][943]LogAIModule: Creating AISystem for world DoorTest
+[2014.11.13-21.32.38:787][943]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DoorTest.DoorTest up for play (max tick rate 0) at 2014.11.13-21.32.38
+[2014.11.13-21.32.38:790][943]LogWorld: Bringing up level for play took: 0.042128
+[2014.11.13-21.32.38:792][943]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DoorTest 0.207
+[2014.11.13-21.32.40:712][ 76]LogBlueprintUserMessages: You got the key!
+[2014.11.13-21.32.47:025][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.11.13-21.32.47:025][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.11.13-21.32.47:070][560]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013139DA0
+[2014.11.14-00.27.42:067][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.11.14-00.27.42:067][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.11.14-00.27.43:027][509]Cmd: QUIT_EDITOR
+[2014.11.14-00.27.43:432][509]LogExit: Preparing to exit.
+[2014.11.14-00.27.44:381][509]LogExit: Editor shut down
+[2014.11.14-00.27.44:381][509]LogExit: Transaction tracking system shut down
+[2014.11.14-00.27.44:382][509]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037614680
+[2014.11.14-00.27.44:382][509]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DB65260
+[2014.11.14-00.27.44:383][509]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000274F6B60
+[2014.11.14-00.27.44:409][509]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032984C20
+[2014.11.14-00.27.45:143][509]LogExit: Object subsystem successfully closed.
+[2014.11.14-00.27.45:553][509]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2014.11.14-00.27.45:553][509]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.11.14-00.27.45:553][509]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.11.14-00.27.45:553][509]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.11.14-00.27.45:553][509]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.11.14-00.27.45:553][509]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.11.14-00.27.45:561][509]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.11.14-00.27.45:575][509]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.11.14-00.27.45:583][509]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.11.14-00.27.45:598][509]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.11.14-00.27.45:599][509]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.11.14-00.27.45:600][509]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.11.14-00.27.45:600][509]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.11.14-00.27.45:600][509]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.11.14-00.27.45:600][509]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.11.14-00.27.45:600][509]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.11.14-00.27.45:600][509]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.11.14-00.27.45:600][509]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.11.14-00.27.45:600][509]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.11.14-00.27.45:645][509]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.11.14-00.27.45:645][509]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.11.14-00.27.45:645][509]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.11.14-00.27.45:647][509]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.11.14-00.27.45:657][509]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.11.14-00.27.45:657][509]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.11.14-00.27.45:677][509]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.11.14-00.27.45:677][509]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.11.14-00.27.45:687][509]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.11.14-00.27.45:687][509]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.11.14-00.27.45:687][509]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.11.14-00.27.45:687][509]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.11.14-00.27.45:687][509]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.11.14-00.27.45:687][509]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.11.14-00.27.45:687][509]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.11.14-00.27.45:688][509]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.11.14-00.27.45:706][509]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.11.14-00.27.45:706][509]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.11.14-00.27.45:707][509]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.11.14-00.27.45:717][509]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.11.14-00.27.45:724][509]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.11.14-00.27.45:731][509]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.11.14-00.27.45:746][509]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.11.14-00.27.45:758][509]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.11.14-00.27.45:766][509]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.11.14-00.27.45:769][509]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.11.14-00.27.45:796][509]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.11.14-00.27.45:796][509]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.11.14-00.27.45:799][509]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.11.14-00.27.45:819][509]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.11.14-00.27.45:917][509]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.11.14-00.27.45:934][509]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.11.14-00.27.45:944][509]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.11.14-00.27.45:944][509]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.11.14-00.27.45:944][509]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.11.14-00.27.45:944][509]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.11.14-00.27.45:965][509]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.11.14-00.27.46:001][509]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.11.14-00.27.46:001][509]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.11.14-00.27.46:013][509]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.11.14-00.27.46:014][509]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.11.14-00.27.46:021][509]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.11.14-00.27.46:021][509]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.11.14-00.27.46:021][509]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.11.14-00.27.46:021][509]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.11.14-00.27.46:021][509]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.11.14-00.27.46:026][509]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.11.14-00.27.46:034][509]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.11.14-00.27.46:254][509]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.11.14-00.27.46:262][509]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.11.14-00.27.46:262][509]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.11.14-00.27.46:262][509]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.11.14-00.27.46:262][509]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.11.14-00.27.46:262][509]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.11.14-00.27.46:293][509]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.11.14-00.27.46:299][509]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.11.14-00.27.46:299][509]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.11.14-00.27.46:314][509]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.11.14-00.27.46:314][509]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.11.14-00.27.46:324][509]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.11.14-00.27.46:335][509]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.11.14-00.27.46:335][509]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.11.14-00.27.46:340][509]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.11.14-00.27.46:340][509]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.11.14-00.27.46:361][509]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.11.14-00.27.46:361][509]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.11.14-00.27.46:377][509]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.11.14-00.27.46:377][509]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.11.14-00.27.46:377][509]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.11.14-00.27.46:377][509]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.11.14-00.27.46:379][509]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.11.14-00.27.46:379][509]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.11.14-00.27.46:379][509]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.11.14-00.27.46:379][509]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.11.14-00.27.46:393][509]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.11.14-00.27.46:393][509]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.11.14-00.27.46:393][509]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.11.14-00.27.46:414][509]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.11.14-00.27.46:428][509]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.11.14-00.27.46:528][509]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.11.14-00.27.46:540][509]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.11.14-00.27.46:547][509]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.11.14-00.27.46:547][509]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.11.14-00.27.46:559][509]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.11.14-00.27.46:560][509]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.11.14-00.27.46:560][509]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.11.14-00.27.46:579][509]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.11.14-00.27.46:579][509]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.11.14-00.27.46:579][509]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.11.14-00.27.46:582][509]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.11.14-00.27.46:601][509]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.11.14-00.27.46:613][509]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.11.14-00.27.46:619][509]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.11.14-00.27.46:620][509]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.11.14-00.27.46:633][509]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.11.14-00.27.46:653][509]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.11.14-00.27.46:709][509]LogDerivedDataCache: Shutdown
+[2014.11.14-00.27.46:709][509]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.11.14-00.27.46:717][509]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.11.14-00.27.46:726][509]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.11.14-00.27.46:731][509]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.11.14-00.27.46:731][509]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.11.14-00.27.46:746][509]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.11.14-00.27.46:753][509]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.11.14-00.27.46:753][509]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.11.14-00.27.46:764][509]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.11.14-00.27.46:765][509]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.11.14-00.27.46:765][509]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.11.14-00.27.46:776][509]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.11.14-00.27.46:776][509]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.14-00.27.46:785][509]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.14-00.27.46:785][509]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.11.14-00.27.46:799][509]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.11.14-00.27.46:799][509]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.11.14-00.27.46:799][509]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.14-00.27.46:799][509]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.14-00.27.46:799][509]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.14-00.27.46:799][509]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.14-00.27.46:812][509]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.14-00.27.46:823][509]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.14-00.27.46:835][509]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.14-00.27.46:836][509]LogExit: Exiting.
+[2014.11.14-00.27.46:843][509]Log file closed, 11/14/14 00:27:46
